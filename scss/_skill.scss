@@ -1,0 +1,48 @@
+.skill{
+    background-image: url(../images/skill.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 110px 0;
+    position: relative;
+    z-index: 1;
+    &::after{
+        position: absolute;
+        content: ''; 
+        top: 0; 
+        left: 0; 
+        height: 100%; 
+        width: 100%;
+        background-color: rgba(26, 116, 83, 0.729);
+        z-index: -1;
+    }    
+    .skill_wrapper{
+        h4{   
+            font-size: 38px;    
+            font-weight: 600;
+            color:$white;
+            text-transform: uppercase;
+            line-height: 48px;
+        }
+        h5{   
+            font-size: 22px;    
+            font-weight: 400;
+            color:$white;
+            line-height: 32px;
+        }
+        .skill_btn{ 
+            margin-top: 50px;
+             a{
+                font-size: 18px;
+                font-weight: 500;
+                color: $white;
+                padding: 16px 35px;
+                background-color: #1a855e;
+                border-radius: 10px;
+                border: 1px solid #f3f3f3;
+
+             }
+        }
+
+    }
+}        

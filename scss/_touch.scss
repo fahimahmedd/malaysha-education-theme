@@ -1,0 +1,52 @@
+.touch{
+    background-image: radial-gradient(circle, #0b3727, #104f38, #15694a, #1a835d, #209f70);
+    padding: 40px 0;
+    margin-bottom: 40px;
+
+    .touch_wrapper{
+        h4 {
+            font-size: 32px;
+            font-weight: 500;
+            color: $white;
+            line-height: 42px;
+        }
+
+        p{
+            font-size: 15px;
+            font-weight: 400;
+            color: rgb(236, 236, 236);
+            line-height: 24px;
+        }
+        .touch_form{
+               padding-left: 50px;
+            .form_control{
+                display: block; 
+                margin-bottom: 10px;
+                width: 100%;
+                height: 55px;
+                padding:23px;
+                background-color:#ffffff;
+                background-clip: padding-box;
+                border: 1px solid #dededf;
+                transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                -moz-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                -ms-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                -o-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                &:focus{
+                   outline: 0;
+               } 
+                &::placeholder{
+                    font-size: 16px;
+                    color: #aeacac;
+                    font-weight: 400;
+                }
+            }
+            .btn {
+                height: 55px;
+                width: 130px;
+                font-weight: 500;
+            }
+        }
+    }
+}

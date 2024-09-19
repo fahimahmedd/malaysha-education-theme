@@ -1,0 +1,37 @@
+.counter{
+       padding: 150px 0 100px 0;
+    .counter_wrapper{
+          width: 85%;
+          margin: 0 auto;
+        .counter_wrap{
+             h4{
+                font-size: 48px;
+                color: $primaryColor;
+                font-weight: 600;
+                position: relative;
+                padding-top: 5px;
+                span{
+                    color: $black;
+                }
+                &::after{
+                    position: absolute;
+                    content: '';
+                    top: -40px;
+                    left: 0;
+                    height: 10px;
+                    width: 30px;
+                    border-radius: 5px;
+                    background-color: #9D9D9D;
+                }
+
+             }
+             
+             h5{
+                font-size: 17px;
+                color: #333;
+                font-weight: 400;
+                padding-top: 15px;
+             }
+        }
+    }
+}

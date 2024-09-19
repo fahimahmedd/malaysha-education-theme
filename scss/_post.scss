@@ -1,0 +1,69 @@
+.post{
+      padding-bottom: 80px;
+    .section_header {
+        text-align: center;
+        h4 {
+            font-size: 28px;
+            font-weight: 500;
+            color: $primaryColor;
+            line-height: 38px;
+            text-transform: uppercase;
+        }
+
+        h5 {
+            font-size: 15px;
+            font-weight: 400;
+            color: #333;
+            line-height: 24px;
+        }
+    }
+    .post_wrapper{
+        padding-top: 50px;
+   .post_crad{
+         background-color: $white;
+         box-shadow: 1px 1.732px 20px 1px rgba(0,0,0,0.2);   
+         border-radius: 10px;
+         margin-bottom: 25px;
+         height: 480px;
+        .card_img{
+              height: 280px;
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: rgb(182, 179, 179);
+              border-radius: 10px;
+          img{
+              max-height: 100%;
+              max-width: 100%;
+              border-radius: 10px;
+          }
+        }
+        .card_text{
+          padding: 20px 15px 35px 15px;
+          h5{
+              font-size: 14px;
+              color: #333;
+              font-weight: 400;
+              display: inline-block;
+              padding: 5px 26px;
+              background-color: #f3f3f3;
+              border-radius: 30px;
+          }
+          h4{
+              font-size: 21px;
+              color: $black;
+              font-weight: 500;   
+              line-height: 32px;
+              padding: 10px 0;
+          }
+          a{
+              font-size: 15px;
+              color: $black;
+              font-weight: 400;
+
+          }
+        }
+   }
+}
+}

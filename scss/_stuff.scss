@@ -1,0 +1,146 @@
+.stuff {
+    padding-bottom: 120px;
+    background-color: #EFFAF6;
+
+    .section_header {
+        text-align: center;
+        padding-top: 50px;
+
+        h4 {
+            font-size: 16px;
+            font-weight: 500;
+            color: $primaryColor;
+            line-height: 32px;
+        }
+
+        h5 {
+            font-size: 28px;
+            font-weight: 500;
+            color: $black;
+            line-height: 40px;
+            text-transform: uppercase;
+        }
+    }
+
+    .stuff_wrapper {
+        padding-top: 50px;
+
+        .stuf_slider {
+            position: relative;
+            .prev_rev{
+                height: 60px;
+                width: 60px;
+                color: #333;
+                font-size: 35px;
+                background-color: $white;
+                text-align: center;
+                line-height: 60px;
+                border-radius: 50%;
+                position: absolute;
+                bottom: -80px;
+                left: 16%;
+                z-index: 5;
+                transform: translateX(-16%);
+                box-shadow: 1px 1.732px 20px 0px rgba(0,0,0,0.2);   
+                cursor: pointer;
+            }
+            .next_rev{
+                height: 60px;
+                width: 60px;
+                color: #333;
+                font-size: 35px;
+                background-color: $white;
+                text-align: center;
+                line-height: 60px;
+                border-radius: 50%;
+                position: absolute;
+                bottom: -80px;
+                left: 22%;
+                z-index: 5;
+                transform: translateX(-22%);
+                box-shadow: 1px 1.732px 20px 0px rgba(0,0,0,0.2);   
+                cursor: pointer; 
+            }
+            .stuff_wrap {
+                background-color: $white;
+                border-radius: 15px;
+                overflow: hidden;
+                border: 1px solid #d4d4d4;
+                position: relative;
+                margin:2px 15px;
+
+                h6 {
+                    font-size: 12px;
+                    font-weight: 500;
+                    color: #333;
+                    background-color: $white;
+                    border-radius: 25px;
+                    padding: 4px 17px;
+                    position: absolute;
+                    top: 10px;
+                    left: 20px;
+
+                    &:hover {
+                        background-color: $primaryColor;
+                        color: $white;
+                    }
+                }
+
+                .stuf_img {
+                    height: 210px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #EFFAF6;
+
+                    img {
+                        width: 100%;
+                        max-height: 100%;
+                    }
+                }
+
+                .stuf_text {
+                    margin-top: -70px;
+                    padding: 15px 15px 35px 15px;
+                    display: flex;
+                    justify-content: center;
+
+                    .stuf_profile {
+                        margin: 0 auto;
+
+                        img {
+                            height: 120px;
+                            width: 120px;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    h4 {
+                        font-size: 20px;
+                        font-weight: 500;
+                        color: $black;
+                        line-height: 30px;
+                        margin-top: 10px;
+                    }
+
+                    h5 {
+                        font-size: 15px;
+                        font-weight: 400;
+                        color: #333;
+                        line-height: 10px;
+                        padding-bottom: 10px;
+                    }
+
+                    .qr_scann {
+                        padding-left: 30px;
+
+                        img {
+                            width: 80px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

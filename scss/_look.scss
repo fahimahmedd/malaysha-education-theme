@@ -1,0 +1,76 @@
+.look{
+    padding: 80px 0;
+    .section_header{
+        text-align: center;
+
+        h4{
+            font-size: 16px;
+            font-weight: 500;
+            color: $primaryColor;
+            line-height: 32px;
+        }
+        
+        h5{
+            font-size: 28px;
+            font-weight: 500;
+            color: $black;
+            line-height:40px;
+            text-transform: uppercase;
+        }
+        h6{
+            font-size: 17px;
+            font-weight: 400;
+            color: #333;
+            line-height:40px;
+        }
+    }
+    .look_wrapper{
+          padding-top: 60px;
+          
+           .look_img{
+              height: 380px;
+              width: 100%;
+              background-color: #cecece;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 15px;
+              overflow: hidden;
+              position: relative;
+              &:hover .lookOverly{
+                opacity: 1;
+              }
+              img{
+                  max-height: 100%;
+                  max-width: 100%;
+              }
+              .lookOverly{
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background-color: #84acad70;
+                opacity: 0; 
+                a{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    i{
+                        font-size: 38px;
+                        color: $white;
+                    }
+                }
+              }
+           }
+           .active{
+            transform: scale(1.1);
+           }
+           .active_2{
+            transform: scale(1.05);
+           }
+    }
+
+
+}

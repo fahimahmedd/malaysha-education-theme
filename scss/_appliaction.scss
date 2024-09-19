@@ -1,0 +1,84 @@
+.application{
+     padding-bottom: 80px;
+    .section_header{
+        text-align: center;
+        h4{
+            font-size: 20px;
+            font-weight: 500;
+            color: $primaryColor;
+            line-height: 32px;
+        }
+        
+        h5{
+            font-size: 28px;
+            font-weight: 600;
+            color: $black;
+            line-height:40px;
+        }
+    }
+  .application_wrapper{
+       .application_img{
+        img{
+            width: 100%;
+        }
+       }
+       .application_content{
+        position: relative;
+        &::after {
+            position: absolute;
+            content: '';
+            top: 50%;
+            left: -145px; 
+            height: 70%;
+            width: 194px;
+            border-right: 1px dashed #333;
+            border-radius: 60%;
+            transform: translateY(-50%);
+            z-index: -1;
+        }
+           .content_wrap{
+                  display: flex;
+                  padding: 40px 0;
+              .ball{
+                h5{
+                   display: inline-block;
+                   height: 80px;
+                   width: 80px;
+                   background-image: linear-gradient(to bottom, #e74964, #d73f5b, #c73451, #b72948, #a71e3f);
+                   border-radius: 50%;
+                   text-align: center;
+                   line-height: 80px;
+                   font-size: 35px;
+                   font-weight: 700;
+                   color: $white;
+                }
+                .ball_color_2{
+                    background-image: linear-gradient(to bottom, #5e84ee, #5477dc, #496acb, #3f5dba, #3451a9);
+                }
+                .ball_color_3{
+                    background-image: linear-gradient(to bottom, #27ea45, #23d43c, #1ebe32, #19a82a, #139321);
+                }
+              }
+              .text{ 
+                padding-left: 15px;
+                h4{
+                    font-size: 22px;
+                    font-weight: 500;
+                    color: #333;
+                }
+                h5{
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: $text;
+                }
+              }
+           }
+           .ball_1{
+            margin-left: -45px;
+           }
+           .ball_3{
+            margin-left: -45px;
+           }
+       }
+    }
+}

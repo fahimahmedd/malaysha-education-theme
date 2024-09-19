@@ -1,0 +1,48 @@
+.partner{
+    padding: 80px 0;
+    .section_header{
+        text-align: center;
+
+        h4{
+            font-size: 16px;
+            font-weight: 500;
+            color: $primaryColor;
+            line-height: 32px;
+        }
+        
+        h5{
+            font-size: 28px;
+            font-weight: 500;
+            color: $black;
+            line-height:40px;
+            text-transform: uppercase;
+        }
+        h6{
+            font-size: 17px;
+            font-weight: 400;
+            color: #333;
+            line-height:40px;
+        }
+        .partner_btn{
+            margin-top: 50px;
+            a{
+                font-size: 18px;
+                font-weight: 500;
+                color: $white;
+                padding: 16px 35px;
+                background-color: #1a855e;
+                border-radius: 10px;
+                border: 1px solid #f3f3f3;
+
+             }
+        }
+    }
+    .partner_wrapper{
+        padding-top: 35px;
+      .partner_img{
+          img{
+            width: 100%;
+          }
+      }
+    }
+}

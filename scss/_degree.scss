@@ -1,0 +1,113 @@
+.degree{
+    padding: 60px 0;
+    .section_header{
+        text-align: center;
+        h4{
+            font-size: 20px;
+            font-weight: 500;
+            color: $primaryColor;
+            line-height: 32px;
+        }
+        
+        h5{
+            font-size: 28px;
+            font-weight: 600;
+            color: $black;
+            line-height:40px;
+        }
+    }
+    .degree_wrapper{
+              padding-top: 50px;
+         .degree_crad{
+               background-color: $white;
+               box-shadow: 1px 1.732px 20px 1px rgba(0,0,0,0.2);   
+               border-radius: 10px;
+               margin-bottom: 25px;
+               &:hover .card_img img{
+                 transform: scale(1.1);
+                 transition: all linear .4s;
+               }
+              .card_img{
+                    height: 280px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: rgb(182, 179, 179);
+                    border-radius: 10px;
+                    overflow: hidden;
+                img{
+                    max-height: 100%;
+                    max-width: 100%;
+                    border-radius: 10px;
+                }
+              }
+              .card_text{
+                padding: 20px 15px 35px 15px;
+                h5{
+                    font-size: 14px;
+                    color: #FA9393;
+                    font-weight: 400;
+                    display: inline-block;
+                    padding: 5px 26px;
+                    background-color: #fa93932b;
+                    border-radius: 30px;
+                }
+                .scho_2{
+                    color: #CA93FA;
+                    background-color: #ca93fa21; 
+
+                }
+                .scho_3{
+                    color: #06DD27;
+                    background-color: #06dd2621; 
+                }
+                .scho_4{
+                    color: #93A7FA;
+                    background-color: #93a8fa3e; 
+                }
+                .scho_5{
+                    color: #93D6FA;
+                    background-color: #93d6fa30; 
+                }
+                .scho_6{
+                    color:#FA9393;
+                    background-color: #fa939339; 
+                }
+                .scho_7{
+                    color: #166D4D;
+                    background-color: #166d4d38; 
+                }
+                .scho_8{
+                    color:#FA9393;
+                    background-color: #fa93932f; 
+                }
+                .scho_9{
+                    color: #CA93FA;
+                    background-color: #ca93fa21; 
+                }
+                h4{
+                    font-size: 30px;
+                    color: $black;
+                    font-weight: 500;   
+                    line-height: 40px;
+                }
+                p{
+                    font-size: 15px;
+                    color: $text;
+                    font-weight: 400;   
+                    line-height: 23px;
+                }
+                a{
+                    font-size: 15px;
+                    color: $black;
+                    font-weight: 400;
+                    &:hover{
+                        padding-left: 15px;
+                        color: $primaryColor;
+                    }
+                }
+              }
+         }
+    }
+}
